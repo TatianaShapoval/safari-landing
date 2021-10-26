@@ -20,6 +20,12 @@ a{
     margin: 0 auto;
     padding: 0 10px;
 }
+.title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+}
 .header{
     background-image: url('../images/header-bg.jpg');
     background-position: center;
@@ -93,4 +99,45 @@ a{
 .header__arrow{
     text-align: center;
     margin-bottom: 15px;
+}
+.direction{
+    padding: 100px 0;
+}
+.direction__inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+}
+.direction__img{
+    display: block;
+}
+.description__text{
+    font-size: 16px;
+    border: 1px solid #d9d9de;
+    border-top: none;
+    padding: 10px 19px 14px;
+}
+.travel-info{
+    background-image: url('../images/destination-bg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0 50px;
+}
+.travel-info__title{
+    margin-bottom: 50px;
+    color: #fff;
+}
+.travel-info__items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 54px 67px;
+}
+.travel-info__img{
+    margin-bottom: 15px;
+}
+.travel-info__text{
+    color: #fff;
+    font-size: 16px;
+    line-height: 130%;
 }
