@@ -260,3 +260,46 @@ a{
 .slick-prev{
     right: 60px;
 }
+.tour{
+    padding: 100px 0;
+}
+.tour__title{
+    margin-bottom: 77px;
+}
+.tour__box{
+    column-count: 2;
+    column-gap: 46px;
+    border-bottom: 1px solid #d9d9de;
+    padding-bottom: 50px;
+    margin-bottom: 44px;
+}
+.tour__text{
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.tour__text span{
+    font-weight: 700;
+
+}
+.tour__info{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 70px;
+}
+.tour__info-item{
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    font-size: 58px;
+    line-height: 60px;
+    color: #886239;
+    text-align: center;
+
+}
+.tour__info-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1f1e1e;
+    font-weight: 500;
+}
